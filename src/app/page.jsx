@@ -21,7 +21,6 @@ export default async function Home({ searchParams }) {
 
   return (
     <div>
-      Hello You
       <Results results={results} />
     </div>
   );
