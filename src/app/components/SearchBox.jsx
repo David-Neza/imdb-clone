@@ -9,7 +9,7 @@ export default function SearchBox() {
     e.preventDefault();
     if (!search) return;
     router.push(`/search/${search}`);
-    console.log(search);
+    setSearch("");
   };
   return (
     <div>
